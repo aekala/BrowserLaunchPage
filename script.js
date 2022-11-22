@@ -19,7 +19,7 @@ function getTimeScopedWelcome(date) {
             welcome = "good evening";
             break;
         default: 
-            welcome = "hi";
+            welcome = "good night";
     }
     
     return welcome;
