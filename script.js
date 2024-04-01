@@ -27,5 +27,5 @@ function getTimeScopedWelcome(date) {
 
 let greetingObj = document.getElementById('Greeting');
 const date = new Date();
-let message = `today is <b> ${getDayOfWeek(date).toLowerCase()}, ${getTimeScopedWelcome(date)} </b> aekala!`;
+let message = `today is <b> ${getDayOfWeek(date).toLowerCase()}, ${getTimeScopedWelcome(date)} </b> Leo!`;
 greetingObj.innerHTML = message;
